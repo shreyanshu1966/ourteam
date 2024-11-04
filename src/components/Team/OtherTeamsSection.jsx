@@ -26,7 +26,7 @@ const OtherTeamsSection = ({ title, members }) => {
           <TeamMemberCard member={members[currentIndex]} />
 
           <button
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 h-12 w-12 rounded-full bg-gray-800 text-white flex items-center 
+            className="absolute left-1 top-1/2 transform -translate-y-1/2 h-12 w-12 rounded-full bg-gray-400 text-white flex items-center 
               justify-center transition-all duration-300 hover:bg-gray-700 pointer-events-auto"
             onClick={handlePrevious}
           >
@@ -37,7 +37,7 @@ const OtherTeamsSection = ({ title, members }) => {
           </button>
 
           <button
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 h-12 w-12 rounded-full bg-gray-800 text-white flex items-center 
+            className="absolute right-1 top-1/2 transform -translate-y-1/2 h-12 w-12 rounded-full bg-gray-400 text-white flex items-center 
               justify-center transition-all duration-300 hover:bg-gray-700 pointer-events-auto"
             onClick={handleNext}
           >
