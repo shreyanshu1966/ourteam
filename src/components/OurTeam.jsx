@@ -1,4 +1,4 @@
-import CoreTeamSection from './team/CoreTeamSection';
+import CoreTeamSection from './Team/CoreTeamSection';
 import OtherTeamsSection from './team/OtherTeamsSection';
 import { coreTeamMembers, technicalTeamMembers } from './team/teamData';
 import TeamHeader from './TeamHeader';
